@@ -1,0 +1,947 @@
+fileFormatVersion: 2
+guid: 82a44abc0c57b0345848450134a29231
+timeCreated: 1523989650
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Kirby_Idle0
+    21300002: Kirby_Idle1
+    21300004: Kirby_Walk0
+    21300006: Kirby_Walk1
+    21300008: Kirby_Walk2
+    21300010: Kirby_Walk3
+    21300012: Kirby_WallHit
+    21300014: Kirby_Crouch
+    21300016: Kirby_Slide
+    21300018: Kirby_JumpBegin
+    21300020: Kirby_JumpTumble0
+    21300022: Kirby_JumpTumble1
+    21300024: Kirby_JumpTumble2
+    21300026: Kirby_JumpTumble3
+    21300028: Kirby_Fall
+    21300030: Kirby_Dust0
+    21300032: Kirby_Dust1
+    21300034: Kirby_FloatBegin0
+    21300036: Kirby_FloatBegin1
+    21300038: Kirby_FloatBegin2
+    21300040: Kirby_FloatBegin3
+    21300042: Kirby_Float0
+    21300044: Kirby_Float1
+    21300046: Kirby_FloatEnd0
+    21300048: Kirby_FloatEnd1
+    21300050: Kirby_FloatEnd2
+    21300052: Kirby_FloatEnd3
+    21300054: Kirby_FloatProjectile
+    21300056: Kirby_Suck0
+    21300058: Kirby_Suck1
+    21300060: Kirby_SuckParticle
+    21300062: Kirby_BigIdle
+    21300064: Kirby_BigWalk0
+    21300066: Kirby_BigWalk1
+    21300068: Kirby_BigWalk2
+    21300070: Kibry_BigShoot0
+    21300072: Kibry_BigShoot1
+    21300074: Kibry_BigShoot2
+    21300076: Kibry_BigShoot3
+    21300078: Kirby_BigProjectile0
+    21300080: Kirby_BigProjectile1
+    21300082: Kirby_BigProjectile2
+    21300084: Kirby_BigProjectile3
+    21300086: Kirby_BigProjectileHit0
+    21300088: Kirby_BigProjectileHit1
+    21300090: Kirby_BigProjectileHit2
+    21300092: Sprites_Kirby_0
+    21300094: Kirby_Absorb0
+    21300096: Kirby_Absorb1
+    21300098: Kirby_Absorb2
+    21300100: Kirby_AbsorbParticle0
+    21300102: Kirby_AbsorbParticle1
+    21300104: Kirby_AbsorbParticle2
+    21300106: Kirby_Exit
+    21300108: Kirby_Hurt_1
+    21300110: Kirby_Hurt_0
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kirby_Idle0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3027
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Idle1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3027
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Walk0
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 3027
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Walk1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 3027
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Walk2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3027
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Walk3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 3027
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_WallHit
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3027
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Crouch
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 3027
+        width: 16
+        height: 9
+      alignment: 9
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Slide
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3027
+        width: 22
+        height: 14
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_JumpBegin
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3002
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_JumpTumble0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3002
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_JumpTumble1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3002
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_JumpTumble2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 3002
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_JumpTumble3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3002
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Fall
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 3002
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Dust0
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 3033
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Dust1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 3033
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatBegin0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2968
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatBegin1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2968
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatBegin2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2968
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatBegin3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2968
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Float0
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2968
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Float1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 2968
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatEnd0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2968
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatEnd1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 2968
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatEnd2
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2968
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatEnd3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 2968
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_FloatProjectile
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 2969
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Suck0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2936
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Suck1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2937
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_SuckParticle
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2948
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigIdle
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2937
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigWalk0
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 2936
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigWalk1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 2936
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigWalk2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2936
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kibry_BigShoot0
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2937
+        width: 23
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kibry_BigShoot1
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 2937
+        width: 22
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kibry_BigShoot2
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2936
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.5, y: 0.35}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kibry_BigShoot3
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 2936
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectile0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectile1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectile2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectile3
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectileHit0
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectileHit1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_BigProjectileHit2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2911
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Sprites_Kirby_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 2884
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Absorb0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2845
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Absorb1
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 2844
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Absorb2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 2844
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_AbsorbParticle0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 2844
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_AbsorbParticle1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 2844
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_AbsorbParticle2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 2845
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Exit
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 2737
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Hurt_1
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 2699
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Kirby_Hurt_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2699
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
